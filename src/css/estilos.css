@@ -31,6 +31,13 @@ body{
     background-color: #d5011d;
 }
 
+#burger{
+    display: inline-table;
+    cursor: pointer;
+}
+nav>ul{
+    text-align: center;
+}
 .container{
     max-width: 1000px;
     margin: 0 auto;

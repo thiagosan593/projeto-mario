@@ -1,4 +1,12 @@
-@media (max-width:1200px) {
+@media (max-width:1000px) {
+   
+    .cabecalho .menu{
+        
+        display: list-item;
+        align-items: center;
+        height: 100%;
+    
+    }
     body {
         background-color: #f44;
     }
@@ -35,16 +43,12 @@
     }
 }
 
-@media (max-width :500px){
-    .cabecalho{
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+@media (max-width :800px){
+  
+    .container .imagemm-titulo{
+        max-width:  50%;
     }
 
-    .container .imagemm-titulo{
-        max-width:  75%;
-    }
 
     .modal .fechar-modal{
         width: 30px;
@@ -57,9 +61,25 @@
     }
 }
 
-@media(max-width: 376px){
+@media(max-width: 400px){
+    
     .modal #video{
         width: 250px;
         height: 140px;
     }
 }
+@media screen and (min-width: 1000px) {
+    
+    span#burger{
+       display: none;
+    }   
+    menu{
+       display: block;
+    }
+    menu>ul>li{
+       display: inline-block;
+    }
+    main{
+       width: 768px;
+    }
+   }
