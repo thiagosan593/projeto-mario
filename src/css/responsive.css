@@ -1,12 +1,6 @@
-@media (max-width:1000px) {
+@media (max-width:1200px) {
    
-    .cabecalho .menu{
-        
-        display: list-item;
-        align-items: center;
-        height: 100%;
     
-    }
     body {
         background-color: #f44;
     }
@@ -68,18 +62,3 @@
         height: 140px;
     }
 }
-@media screen and (min-width: 1000px) {
-    
-    span#burger{
-       display: none;
-    }   
-    menu{
-       display: block;
-    }
-    menu>ul>li{
-       display: inline-block;
-    }
-    main{
-       width: 768px;
-    }
-   }
