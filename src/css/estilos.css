@@ -97,7 +97,7 @@ body{
     left: 0;
     background-color: rgba(52, 52, 50, 0.749);
 
-    display: none;
+    visibility: collapse;
 }
 .conteudo-modal{
     display: flex;
